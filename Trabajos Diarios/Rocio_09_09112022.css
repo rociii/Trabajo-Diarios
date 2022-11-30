@@ -1,0 +1,35 @@
+/*
+CSS Práctica 09
+Rocío Fernández 
+Noviembre 2022
+*/
+h2{
+    text-align: center;
+}
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 2000px;
+}
+
+header,footer{
+    background-image: linear-gradient( to Bottom, rgb(78, 88, 149),rgb(159, 95, 199));
+    padding: 20px;
+    border:2px solid black;
+    text-align: center;
+}
+
+section{
+    width: 33%;
+    float: left;
+}
+footer{
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    clear:both;
+
+}

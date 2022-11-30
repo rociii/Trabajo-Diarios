@@ -1,0 +1,41 @@
+/*
+Práctica diaria 10
+Rocío Fernández Sánchez
+Noviembre de 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;}
+
+@font-face {
+    font-family: monospace;
+    src: url();
+}   
+
+
+header,footer{
+    background-color: rgb(13, 130, 148);
+    color: white;
+    padding: 25px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 50px;
+}
+h1{
+    text-shadow: 5px 5px 3px black;
+}
+section{
+    box-shadow: 5px -5px 20px blue;
+}
+main{
+    display: flex;
+}
+section{
+    margin: 20px 10px 20px 10px;
+}

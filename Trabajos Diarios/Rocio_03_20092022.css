@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(210, 84, 84); 
+    border:black double 5px;
+    padding: 20px
+ }
+p{
+    background-color:antiquewhite;
+    border-radius: 25px;
+    padding: 20px;
+    margin:0px 50px 0px 50px;
+
+
+
+}
+ h1{ background-color:blue rgba(0,0,0,0,5)
+ }

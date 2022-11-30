@@ -1,0 +1,49 @@
+/*
+    Práctica 7: Listas ordenadas, listas desordenadas y listas de definición
+
+
+*/
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    width:70%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+}
+
+ol ol{
+    list-style-type:square;
+}
+.ListaDesordenada{
+    background-color:rgb(98, 49, 189);
+}
+
+.ListaOrdenada{
+    background-color: rgb(92, 56, 92);
+}
+
+.ListaDefinición{
+    background-color: rgb(139, 81, 139);
+}
+ul li{
+    list-style-type: none;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: -5px;
+    padding: 0px 0px 0px 25px;
+}
+.cpu{
+    background-image: url(./IMG/cpu.jpg);
+}
+.placamadre{
+    background-image:url(./IMG/placa\ madre.jpg);
+}
+

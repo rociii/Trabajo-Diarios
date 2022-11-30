@@ -1,0 +1,36 @@
+body{
+    border:black double 5px;
+    padding: 20px;
+}
+h1{
+    color: rgb(8, 8, 156);
+}
+pre{
+    color: white;
+    float:left
+}
+p{
+    color: rgb(8, 8, 156);
+}
+span{
+    color: red;
+}
+.ecuacion{
+    color:yellow;
+}
+.texto{
+    color:rgb(29, 218, 29);
+
+}
+
+img{
+    width: 90px;
+    padding: 25px;
+    margin-left: 10px;
+    float: left;
+    
+
+}
+section{
+    overflow: auto;
+}

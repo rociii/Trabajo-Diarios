@@ -1,0 +1,55 @@
+.grid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+
+}
+.grid img{
+    width: 100%;
+    border: 3px solid white;
+    margin: auto;
+}
+
+*{
+    box-sizing: border-box;
+    
+}    
+
+header,footer{
+    background-color:white ;
+    border-style: solid;
+    border-radius:20px ;
+    padding: 5px;
+    text-align:center;
+    opacity: 0.6;
+
+}
+.main{
+    height: 1200px;
+}
+img{
+    transition: all 0.5s linear;
+    border-style: solid;
+}
+
+img:hover{
+    transform: scale(0.9) rotate(5deg);
+}
+
+.main img{
+    width: 50%;
+    float: left;
+}
+
+h1{
+    padding:30px;
+}
+body{
+    background-image:url(./IMG/fondo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "boda";
+    src: url("./Fuentes/GreatVibes-Regular.ttf");
+}
+@font-face {
+    font-family: "letratexto";
+    src: url(./Fuentes/Cookie-Regular.ttf);
+}
+
+body{
+    border:black double 5px;
+    background-color: rgb(146, 120, 96);
+   
+}
+
+.text-block{
+    text-align: center;
+    font-family: "boda";
+    font-size: 100px;
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+    color:antiquewhite;
+}
+.titulo{
+    background-color:rgb(238, 211, 135);
+    text-align: center;
+    font-family: "boda";
+    font-size: 100px;
+    color:black;
+    text-shadow: 5px 5px 3px rgb(255, 255, 255);
+} 
+p{
+    background-color: rgb(120, 95, 41);
+    border:black double;
+    border-radius: 5px;
+    padding:23px;
+    width:80%;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: "letratexto"; 
+}
+
+img{
+    width: 30%;
+    margin:auto;
+    display: block;
+}
+
+
+.MenuH{
+    width: 100%;
+    margin: 20px auto 100px auto;
+}
+.MenuH  a, .MenuV a{
+    background-color: #EABD8D;
+    color:black;
+    text-decoration: none;
+    float:left;
+    width:25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.MenuH a:hover, .MenuV a:hover{
+    background-color: rgb(0, 0, 0);
+    color: black;
+
+}
+.MenuV a{
+    display: block;
+    float: none;
+    width: 30%;
+}
+.MenuV{
+    width: 50%;
+    float: left;
+}
+
+
+.container {
+    background-image: url(./IMG/anillos-bodas-oro-rosa-blanca-ramo-boda_8353-10467.webp);
+    height: 500px;
+    background-position: -400px -200px;
+    position: relative;
+}
+  
+.text-block {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}

@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.gris{
+    background-color: rgb(56, 53, 53);
+    width: 100%;
+    clear: both;
+}
+.Azul{
+    background-color: blue;
+    float: left;
+    width: 15rem;
+	height: 15rem;
+	border-radius: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:50px;
+    padding:3%
+
+}
+
+
+.Rojo{
+    background-color: red;
+    float: left;
+    width: 15rem;
+	height: 15rem;
+	border-radius: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:40px;
+    padding:3%
+    
+}
+
+.Amarillo{
+    background-color: yellow;
+    float:left;
+    width: 15rem;
+	height: 15rem;
+	border-radius: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:50px;
+    padding:3%
+}
+.azul{
+    background-color: blue;
+    float:right;
+    width: 15rem;
+	height: 15rem;
+	border-radius: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:30px;
+    padding:3%
+    
+}
+
+.Verde{
+    background-color: green;
+    clear:both;
+    width: 100%;
+}
+
+
+div{
+    padding:25px;
+    float:right;
+    width: 25%;
+    margin:25px 15px 25px 15px;
+   
+}

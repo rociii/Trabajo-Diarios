@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;}
+
+body{
+    background-image: url(./IMG/fondo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+}
+
+
+
+.texto{
+    background-color: rgba(32, 168, 218, 0.629);
+    text-shadow: rgba(50, 137, 151, 0.24);
+    color: rgb(152, 198, 196);
+    text-align: center;
+}
+
+
+section{
+
+    box-shadow:1px 2px 5px 2px rgb(255, 255, 255);
+    margin: center;
+    padding:25px;
+    font-family:sans-serif;
+    text-align: center;
+
+}
+
+header{
+    background-color:#669ddb91;
+    color: white;
+    padding: 25px;
+    border-radius: 100px;
+    border:rgb(230, 230, 230) double;
+   
+}
+h1{
+    text-shadow: 4px 2px 3px rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px
+}
+
+a{
+    text-decoration: none;
+}
+
+.font-size{
+    font-size: 60px;
+}
+.menu{
+    width: 70%;
+    margin: 20px auto 20px auto;
+   
+}
+.menu a:hover{
+    background-color: rgb(145, 121, 93);
+    color: black;
+}
